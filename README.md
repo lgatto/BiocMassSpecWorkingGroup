@@ -33,6 +33,9 @@ release 3.14, there are:
 
 Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.html#___MassSpectrometry) packages
 
+
+![plot of chunk unnamed-chunk-2](./figs/ms_deps.svg)
+
 ## biocView  Proteomics 
 -  163  packages 
 -  170  maintainers 

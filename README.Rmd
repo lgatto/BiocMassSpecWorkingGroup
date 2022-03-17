@@ -28,19 +28,24 @@ Bioconductor packages are annotated with *biocView* tags. As of
 release 3.14, there are:
 
 ```{r ms, echo = FALSE, results = "asis"}
-msp <- describeBiocView(bv[["MassSpectrometry"]])
+ms_packages <- describeBiocView(bv[["MassSpectrometry"]])
 ```
 
 Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.html#___MassSpectrometry) packages
 
+
+```{r echo = FALSE}
+knitr::include_graphics("./figs/ms_deps.svg")
+```
+
 ```{r prot, echo = FALSE, results = "asis"}
-pp <- describeBiocView(bv[["Proteomics"]])
+prot_packages <- describeBiocView(bv[["Proteomics"]])
 ```
 
 Explore [Proteomics](https://bioconductor.org/packages/release/BiocViews.html#___Proteomics) packages
 
 ```{r metab, echo = FALSE, results = "asis"}
-mp <- describeBiocView(bv[["Metabolomics"]])
+metabo_packages <- describeBiocView(bv[["Metabolomics"]])
 ```
 
 Explore [Metabolomics](https://bioconductor.org/packages/release/BiocViews.html#___Metabolomics) packages
