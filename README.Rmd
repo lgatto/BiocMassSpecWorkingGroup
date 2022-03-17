@@ -18,33 +18,29 @@ developments. More specifically, we suggest the following steps.
   #metabolomics channels on slack with the aim to organise regular
   (open) meetings and/or dedicated workshops.
 
-
+```{r, include = FALSE}
+source("R/contribs.R")
+```
 
 ## Packages
 
 Bioconductor packages are annotated with *biocView* tags. As of
 release 3.14, there are:
 
-## biocView  MassSpectrometry 
--  118  packages 
--  124  maintainers 
--  97  unique maintainers 
--  450  contributors 
+```{r ms, echo = FALSE, results = "asis"}
+msp <- describeBiocView(bv[["MassSpectrometry"]])
+```
 
 Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.html#___MassSpectrometry) packages
 
-## biocView  Proteomics 
--  163  packages 
--  170  maintainers 
--  136  unique maintainers 
--  585  contributors 
+```{r prot, echo = FALSE, results = "asis"}
+pp <- describeBiocView(bv[["Proteomics"]])
+```
 
 Explore [Proteomics](https://bioconductor.org/packages/release/BiocViews.html#___Proteomics) packages
 
-## biocView  Metabolomics 
--  88  packages 
--  96  maintainers 
--  75  unique maintainers 
--  360  contributors 
+```{r metab, echo = FALSE, results = "asis"}
+mp <- describeBiocView(bv[["Metabolomics"]])
+```
 
 Explore [Metabolomics](https://bioconductor.org/packages/release/BiocViews.html#___Metabolomics) packages

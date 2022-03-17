@@ -1,7 +1,5 @@
 describeBiocView <- function(x) {
     pkgs <- x@packageList
-    cat("biocView:", x@name, "\n")
-    cat(length(pkgs), " packages\n")
     maintainers <-
         unlist(sapply(pkgs, function(x) strsplit(x@Maintainer, ",")))
     contributors <- sapply(pkgs,
@@ -11,9 +9,12 @@ describeBiocView <- function(x) {
            n <- unlist(strsplit(n, " and "))
            length(n)
        })
-    cat(length(maintainers), " maintainers\n")
-    cat(length(unique(maintainers)), " unique maintainers\n")
-    cat(sum(contributors), " contributors\n")
+    cat("## biocView ", x@name, "\n")
+    cat("- ", length(pkgs), " packages", "\n")
+    cat("- ", length(maintainers), " maintainers", "\n")
+    cat("- ", length(unique(maintainers)), " unique maintainers", "\n")
+    cat("- ", sum(contributors), " contributors", "\n")
+    invisible(pkgs)
 }
 
 v <- BiocManager::version()
@@ -25,7 +26,6 @@ data(biocViewsVocab, package = "biocViews")
 ## Specific BiocView of interest
 bv <- biocViews:::getBiocViews(url, biocViewsVocab, "NoViewProvided")
 
-
-describeBiocView(bv[["MassSpectrometry"]])
-describeBiocView(bv[["Proteomics"]])
-describeBiocView(bv[["Metabolomics"]])
+msp <- describeBiocView(bv[["MassSpectrometry"]])
+pp <- describeBiocView(bv[["Proteomics"]])
+mp <- describeBiocView(bv[["Metabolomics"]])
