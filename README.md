@@ -23,12 +23,13 @@ developments. More specifically, we suggest the following steps.
 
 ## Packages
 
-Bioconductor packages are annotated with *biocView* tags:
+Bioconductor packages are annotated with *biocView* tags. As of
+release 3.14, there are:
 
 ### MassSpectrometry
 - 118  packages
 - 124  maintainers
-- n97  unique maintainers
+- 97  unique maintainers
 - 450  contributors
 - Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.html#___MassSpectrometry) packages
 
