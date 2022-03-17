@@ -31,15 +31,19 @@ release 3.14, there are:
 ms_packages <- describeBiocView(bv[["MassSpectrometry"]])
 ```
 
-Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.html#___MassSpectrometry) packages
-
-
 ```{r echo = FALSE}
 knitr::include_graphics("./figs/ms_deps.svg")
 ```
 
+Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.html#___MassSpectrometry) packages
+
+
 ```{r prot, echo = FALSE, results = "asis"}
 prot_packages <- describeBiocView(bv[["Proteomics"]])
+```
+
+```{r echo = FALSE}
+knitr::include_graphics("./figs/prot_deps.svg")
 ```
 
 Explore [Proteomics](https://bioconductor.org/packages/release/BiocViews.html#___Proteomics) packages
@@ -47,5 +51,10 @@ Explore [Proteomics](https://bioconductor.org/packages/release/BiocViews.html#__
 ```{r metab, echo = FALSE, results = "asis"}
 metabo_packages <- describeBiocView(bv[["Metabolomics"]])
 ```
+
+```{r echo = FALSE}
+knitr::include_graphics("./figs/metabo_deps.svg")
+```
+
 
 Explore [Metabolomics](https://bioconductor.org/packages/release/BiocViews.html#___Metabolomics) packages

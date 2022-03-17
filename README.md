@@ -31,16 +31,18 @@ release 3.14, there are:
 -  97  unique maintainers 
 -  450  contributors 
 
+![plot of chunk unnamed-chunk-2](./figs/ms_deps.svg)
+
 Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.html#___MassSpectrometry) packages
 
-
-![plot of chunk unnamed-chunk-2](./figs/ms_deps.svg)
 
 ## biocView  Proteomics 
 -  163  packages 
 -  170  maintainers 
 -  136  unique maintainers 
 -  585  contributors 
+
+![plot of chunk unnamed-chunk-3](./figs/prot_deps.svg)
 
 Explore [Proteomics](https://bioconductor.org/packages/release/BiocViews.html#___Proteomics) packages
 
@@ -49,5 +51,8 @@ Explore [Proteomics](https://bioconductor.org/packages/release/BiocViews.html#__
 -  96  maintainers 
 -  75  unique maintainers 
 -  360  contributors 
+
+![plot of chunk unnamed-chunk-4](./figs/metabo_deps.svg)
+
 
 Explore [Metabolomics](https://bioconductor.org/packages/release/BiocViews.html#___Metabolomics) packages
