@@ -21,8 +21,8 @@ plot_deps <- function(gr, sz = 20, fs = "95") {
     makecls <- function(g) {
         blue <- c("MSnbase", "mzR", "ProtGenerics")
         red <- c("Spectra", "MsCoreUtils")
-        orange <- c("QFeatures")
-        yellow <- c("xcms")
+        orange <- c("QFeatures", "MsFeatures")
+        yellow <- c("xcms", "MetaboCoreUtils")
         x <- nodes(g)
         ans <- rep("white", length(x))
         ans[x %in% blue] <- "steelblue"

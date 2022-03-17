@@ -18,8 +18,13 @@ developments. More specifically, we suggest the following steps.
   #metabolomics channels on slack with the aim to organise regular
   (open) meetings and/or dedicated workshops.
 
-```{r, include = FALSE}
+
+```{r contribs, include = FALSE}
 source("R/contribs.R")
+```
+
+```{r deps, include = FALSE}
+source("R/biocdeps.R")
 ```
 
 ## Packages

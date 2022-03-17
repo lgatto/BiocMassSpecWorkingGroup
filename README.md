@@ -20,6 +20,9 @@ developments. More specifically, we suggest the following steps.
 
 
 
+
+
+
 ## Packages
 
 Bioconductor packages are annotated with *biocView* tags. As of
@@ -31,7 +34,7 @@ release 3.14, there are:
 -  97  unique maintainers 
 -  450  contributors 
 
-![plot of chunk unnamed-chunk-2](./figs/ms_deps.svg)
+![plot of chunk unnamed-chunk-1](./figs/ms_deps.svg)
 
 Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.html#___MassSpectrometry) packages
 
@@ -42,7 +45,7 @@ Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.h
 -  136  unique maintainers 
 -  585  contributors 
 
-![plot of chunk unnamed-chunk-3](./figs/prot_deps.svg)
+![plot of chunk unnamed-chunk-2](./figs/prot_deps.svg)
 
 Explore [Proteomics](https://bioconductor.org/packages/release/BiocViews.html#___Proteomics) packages
 
@@ -52,7 +55,7 @@ Explore [Proteomics](https://bioconductor.org/packages/release/BiocViews.html#__
 -  75  unique maintainers 
 -  360  contributors 
 
-![plot of chunk unnamed-chunk-4](./figs/metabo_deps.svg)
+![plot of chunk unnamed-chunk-3](./figs/metabo_deps.svg)
 
 
 Explore [Metabolomics](https://bioconductor.org/packages/release/BiocViews.html#___Metabolomics) packages
