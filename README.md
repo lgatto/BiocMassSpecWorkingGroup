@@ -34,6 +34,8 @@ release 3.14, there are:
 -  97  unique maintainers 
 -  450  contributors 
 
+Dependency graph (depends and imports):
+
 ![plot of chunk unnamed-chunk-1](./figs/ms_deps.svg)
 
 Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.html#___MassSpectrometry) packages
@@ -44,6 +46,7 @@ Explore [MassSpectrometry](https://bioconductor.org/packages/release/BiocViews.h
 -  170  maintainers 
 -  136  unique maintainers 
 -  585  contributors 
+Dependency graph (depends and imports):
 
 ![plot of chunk unnamed-chunk-2](./figs/prot_deps.svg)
 
@@ -54,8 +57,8 @@ Explore [Proteomics](https://bioconductor.org/packages/release/BiocViews.html#__
 -  96  maintainers 
 -  75  unique maintainers 
 -  360  contributors 
+Dependency graph (depends and imports):
 
 ![plot of chunk unnamed-chunk-3](./figs/metabo_deps.svg)
-
 
 Explore [Metabolomics](https://bioconductor.org/packages/release/BiocViews.html#___Metabolomics) packages
